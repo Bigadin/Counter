@@ -122,10 +122,11 @@ floatingActionButton: Row(
       onPressed: _incrementCounter,
       tooltip: 'Increment',
       child: const Icon(Icons.add),
-      
+
     ),
     const SizedBox(width: 16.0), // Espacement vertical entre les boutons
     FloatingActionButton(
+      
       onPressed: _decrementCounter,
       tooltip: 'Decrement',
       child: const Icon(Icons.remove),
